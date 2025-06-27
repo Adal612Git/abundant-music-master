@@ -9,3 +9,8 @@ The purpose of this fork is to refactor abundant-music and enable saving of song
 3. From project directory, run 'npm install'
 4. Run 'npm start'
 5. Navigate to 'localhost:3000' in browser.
+
+If you encounter errors related to `event-stream` or `flatmap-stream` during
+`npm install`, remove the `package-lock.json` file and try again with a recent
+version of Node (v14 or later). The development server now relies on
+`nodemon` 2.x.
